@@ -32,4 +32,18 @@ console.log(findCat2)
 const map1 = numbersArray.map((x) => x * 3)
 console.log(map1)
 
+//opgave 6
+console.log(dogsArray.join(''));
+
+//opgave 7a
+console.log(fruitsArray.indexOf('Mango'));
+
+//opgave 7b
+console.log(fruitsArray.indexOf('Blåbær'));
+
+//opgave 8
+dogsArray = dogsArray.filter(dog => dog !== "Polly");
+
+console.log(dogsArray);
+
 }) // ends DOMContentLoaded
