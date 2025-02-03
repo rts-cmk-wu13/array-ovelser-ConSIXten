@@ -6,12 +6,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Løs opgaverne herunder ---
 
-    //opgave 1
+//opgave 1
 let filteredNumbers = numbersArray.filter(num => num > 20);
 console.log(filteredNumbers); 
 
 //opgave 2
 catsArray.push("Sniffles");
 console.log(catsArray)
+
+
+//opgave 3a
+console.log(dogsArray.includes('Trixie'));
+
+//opgave 3b
+console.log(dogsArray.includes('Baxter'));
 
 }) // ends DOMContentLoaded
