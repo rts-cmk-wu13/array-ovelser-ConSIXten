@@ -29,7 +29,7 @@ console.log(findCat)
 let findCat2 = catsArray.find((element) => element == "Salem");
 console.log(findCat2)
 //opgave 5
-
-
+const map1 = numbersArray.map((x) => x * 3)
+console.log(map1)
 
 }) // ends DOMContentLoaded
