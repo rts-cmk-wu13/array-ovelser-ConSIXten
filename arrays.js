@@ -45,4 +45,9 @@ console.log(fruitsArray.indexOf('Blåbær'));
 dogsArray = dogsArray.filter(dog => dog !== "Polly");
 console.log(dogsArray);
 
+//extra opgave
+let sum = numbersArray.reduce((acc, num) => acc + num, 0);
+
+console.log(sum);
+
 }) // ends DOMContentLoaded
