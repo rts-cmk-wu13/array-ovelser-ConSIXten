@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- Løs opgaverne herunder ---
 
 //opgave 1
-let filteredNumbers = numbersArray.filter(num => num > 20);
+let filteredNumbers = numbersArray.filter((elements) => elements > 20);
 console.log(filteredNumbers); 
 
 //opgave 2
@@ -20,5 +20,11 @@ console.log(dogsArray.includes('Trixie'));
 
 //opgave 3b
 console.log(dogsArray.includes('Baxter'));
+
+//Opgave 4a
+console.log(catsArray.includes("Bagheera")? "Bagheera" : undefined)
+
+//opgave 4b
+console.log(catsArray.includes("Salem")? "Salem" : undefined)
 
 }) // ends DOMContentLoaded
