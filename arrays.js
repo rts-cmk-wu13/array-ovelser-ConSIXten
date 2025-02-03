@@ -22,9 +22,28 @@ console.log(dogsArray.includes('Trixie'));
 console.log(dogsArray.includes('Baxter'));
 
 //Opgave 4a
-console.log(catsArray.includes("Bagheera")? "Bagheera" : undefined)
+let findCat = catsArray.find((element) => element == "Bagheera");
+console.log(findCat)
 
 //opgave 4b
-console.log(catsArray.includes("Salem")? "Salem" : undefined)
+let findCat2 = catsArray.find((element) => element == "Salem");
+console.log(findCat2)
+//opgave 5
+const map1 = numbersArray.map((x) => x * 3)
+console.log(map1)
+
+//opgave 6
+console.log(dogsArray.join(''));
+
+//opgave 7a
+console.log(fruitsArray.indexOf('Mango'));
+
+//opgave 7b
+console.log(fruitsArray.indexOf('Blåbær'));
+
+//opgave 8
+dogsArray = dogsArray.filter(dog => dog !== "Polly");
+
+console.log(dogsArray);
 
 }) // ends DOMContentLoaded
