@@ -22,9 +22,14 @@ console.log(dogsArray.includes('Trixie'));
 console.log(dogsArray.includes('Baxter'));
 
 //Opgave 4a
-console.log(catsArray.includes("Bagheera")? "Bagheera" : undefined)
+let findCat = catsArray.find((element) => element == "Bagheera");
+console.log(findCat)
 
 //opgave 4b
-console.log(catsArray.includes("Salem")? "Salem" : undefined)
+let findCat2 = catsArray.find((element) => element == "Salem");
+console.log(findCat2)
+//opgave 5
+
+
 
 }) // ends DOMContentLoaded
